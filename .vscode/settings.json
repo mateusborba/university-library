@@ -1,0 +1,5 @@
+{
+  "prettier.configPath": "",
+  "reactSnippets.settings.prettierEnabled": true,
+  "eslint.format.enable": false
+}
