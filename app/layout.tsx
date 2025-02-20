@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ReactNode } from "react";
+import { Toaster } from "@/components/ui/toaster";
 
 const imbPlexSams = localFont({
   src: [
@@ -32,6 +33,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
         className={`${imbPlexSams.className} ${bebasNeue.variable} antialiased`}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   );
